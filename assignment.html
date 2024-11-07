@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX COLOR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .color-box {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            background-color: green;
+            border: 1px solid #000;
+        }
+        .btn-color {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container text-center">
+    <div id="colorBox" class="color-box"></div>
+    <button class="btn btn-dark " onclick="changeColor('black')">Black</button>
+    <button class="btn btn-primary " onclick="changeColor('blue')">Blue</button>
+    <button class="btn btn-success " onclick="changeColor('green')">Green</button>
+    <button class="btn btn-info" onclick="changeColor('purple')">Purple</button>
+    <button class="btn btn-secondary " onclick="changeColor('pink')">Pink</button>
+    <button class="btn btn-danger " onclick="changeColor('red')">Red</button>
+</div>
+
+<script src="assignment.js"></script>
+
+</body>
+</html>
